@@ -1,0 +1,14 @@
+# IDE settings
+/.idea
+
+# dependencies
+/node_modules
+
+# testing
+/coverage
+
+# production
+/build
+
+
+npm-debug.log*
