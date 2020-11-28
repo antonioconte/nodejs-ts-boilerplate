@@ -1,16 +1,15 @@
-import {getRandomID} from "../utils/math";
+import { getRandomID } from '../utils/math';
 
 export default class Todo {
-    private readonly id: number;
-    private readonly body: any;
+  private readonly id: number;
+  private readonly body: any;
 
-    constructor(body) {
-        this.id = getRandomID();
-        this.body = body;
-    }
+  constructor(body) {
+    this.id = getRandomID();
+    this.body = body;
+  }
 
-    public getBody() : string {
-        return this.body;
-    }
-
+  public getBody(): string {
+    return this.body;
+  }
 }
